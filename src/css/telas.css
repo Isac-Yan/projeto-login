@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+
+/* 
+    Paleta de cores
+_Verde #49a09d
+_lilás #5f2c82 */
+
+* {
+    border: none;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+html {
+    height: 100vh;
+    background-color: #5F2E83;
+}
