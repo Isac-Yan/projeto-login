@@ -2,7 +2,7 @@
 
 
 /* 
-    Paleta de cores
+Paleta de cores
 _Verde #49a09d
 _lilás #5f2c82 
 */
@@ -40,6 +40,9 @@ main {
     width: 250px;
     height: 500px;
     border-radius: 20px;
+
+    transition: width 0.5s, heigth 0.5s;
+    transition-timing-function: ease;
 }
 
 #login #imagem {
