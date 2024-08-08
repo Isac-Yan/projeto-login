@@ -42,14 +42,22 @@ _lilás #5f2c82
 
     #login #imagem {
         border-radius: 20px 0px 0px 20px;
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
 
     #login #formulario {
-        float: right;
+        float: left;
         width: 50%;
+    }
+
+    #formulario h1 {
+        font-size: 2em;
+    }
+    
+    #formulario p {
+        font-size: 1.2em;
     }
     
 }
