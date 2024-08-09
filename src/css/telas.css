@@ -35,7 +35,7 @@ main {
     top: 50%;
     left: 50%;
 
-    transform: translate(-50%, -50%);
+    
 
     width: 250px;
     height: 515px;
@@ -43,6 +43,7 @@ main {
 
     transition: width 0.5s, heigth 0.5s;
     transition-timing-function: ease;
+    transform: translate(-50%, -50%);
 }
 
 #login #imagem {
@@ -69,19 +70,43 @@ main {
 
 #formulario p {
     font-size: 0.8em;
+    margin: 15px 2px;
 }
 
 .campo {
     background-color: #5f2c82;
     width: 100%;
     display: block;
-    border: 5px;
+    border: 2px solid #5f2c82;
     margin: 5px 0px;
     height: 40px;
+    border-radius: 8px;
+}
+
+.campo span {
+    color: black;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
 }
 
 .campo label {
     display: none;
+}
+
+.campo input {
+    background-color: #63d1cf;
+    font-size: 1em;
+    height: 100%;
+    width: calc(100% - 46px);
+    border-radius: 8px;
+    padding: 4px;
+
+    transform: translateY(-13px);
+}
+
+.campo input:hover {
+    background-color: white;
 }
 
 form input[type=submit] {
@@ -113,6 +138,7 @@ form .botao {
     border-radius: 7px;
     text-decoration: none;
     padding-top: 5px;
+    margin-top: 2px;
 }
 
 form .botao:hover {
