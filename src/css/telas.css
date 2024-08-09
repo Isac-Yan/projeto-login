@@ -7,6 +7,22 @@ _Verde #49a09d
 _lilás #5f2c82 
 */
 
+/* Paleta de cores
+
+_ azul escuro #0B132B
+_ laranja escuro #FE5F00
+_ laranja-claro  #ff660d
+_ cinza medio #939196
+_ amarelo medio #FDE74C
+*/
+:root {
+    --azul: #112563;
+    --azul-claro:  #2149c0;
+    --cinza: #3b3b3b;
+    --cinza-medio: #636363;
+    --cinza-claro: #d8d8d8;
+}
+
 * {
     border: none;
     margin: 0px;
@@ -17,7 +33,7 @@ _lilás #5f2c82
 }
 
 html, body {
-    background-color: #5f2c82;
+    background-color: var(--azul);
     height: 100vh;
     width: 100vw;
 }
@@ -74,10 +90,10 @@ main {
 }
 
 .campo {
-    background-color: #5f2c82;
+    background-color: var(--azul-claro);
     width: 100%;
     display: block;
-    border: 2px solid #5f2c82;
+    border: 2px solid var(--azul-claro);
     margin: 5px 0px;
     height: 40px;
     border-radius: 8px;
@@ -95,7 +111,7 @@ main {
 }
 
 .campo input {
-    background-color: #63d1cf;
+    background-color: var(--cinza-claro);
     font-size: 1em;
     height: 100%;
     width: calc(100% - 46px);
@@ -114,14 +130,14 @@ form input[type=submit] {
     width: 100%;
     font-size: 1em;
     height: 40px;
-    background-color: #49a09d;
+    background-color: var(--cinza);
     color: white;
     border: none;
     border-radius: 5px;
 }
 
 form input[type=submit]:hover {
-    background-color: #244e4d;
+    background-color: var(--cinza-medio);
     transition: 0.3s ease;
     cursor: pointer;
 }
@@ -132,17 +148,19 @@ form .botao {
     width: 100%;
     font-size: 1em;
     height: 40px;
-    color: #244e4d;
+    color: black;
     background-color: white;
-    border: 1px solid #49a09d;
+    border: 1px solid var(--cinza);
     border-radius: 7px;
     text-decoration: none;
     padding-top: 5px;
     margin-top: 2px;
+    transition: 0.3s ease;
+    cursor: pointer;
 }
 
 form .botao:hover {
-    background-color:#63d1cf;
+    background-color:var(--cinza-medio);
     color: white;
 }
 

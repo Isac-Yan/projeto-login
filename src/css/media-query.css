@@ -11,7 +11,7 @@ _lilás #5f2c82
     /* CONFIGURAÇÃO PARA TABLET */
 
     html, body {
-        background-image: linear-gradient(#5f2c82, #49a09d);
+        background-image: linear-gradient(var(--azul), var(--cinza-medio));
     }
     
     #login {
@@ -40,7 +40,7 @@ _lilás #5f2c82
 @media screen and (min-width: 992px) {
     /* CONFIGURAÇÃO PARA TELAS GRANDES */
     html, body {
-        background-image: linear-gradient(#5f2c82, #49a09d);
+        background-image: linear-gradient(var(--azul), var(--cinza-medio));
     }
 
     #login {
